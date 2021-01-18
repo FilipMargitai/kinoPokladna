@@ -6,7 +6,8 @@ namespace kinoPokladna
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Cinema cinema = new Cinema(10, 12, 5, 12);
+            cinema.Main();
         }
     }
 }
