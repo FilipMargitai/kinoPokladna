@@ -6,7 +6,7 @@ namespace kinoPokladna
     {
         static void Main(string[] args)
         {
-            Cinema cinema = new Cinema(10, 12, 5, 12);
+            Cinema cinema = new Cinema(10, 12, 5);
             cinema.Main();
         }
     }
